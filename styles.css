@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: tan;
+  background: #E6F4F6;
 }
 
 .eyes {
@@ -30,4 +30,47 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
+}
+
+
+
+div.topnavbar {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 5fr;
+  align-items: center;
+  width: 750px;
+  margin: auto;
+
+}
+.topnavbar a {
+  padding: 1rem;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.topnavbar a:link {
+  color: darkblue;
+}
+.topnavbar a:visited {
+  color: darkblue;
+}
+.topnavbar a:hover {
+  color: gray;
+}
+.topnavbar a:active {
+  color: maroon;
+}
+
+.header1 {
+  font-family: Papyrus;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+p {
+font-family: Garamond;
+text-align: center;
 }
