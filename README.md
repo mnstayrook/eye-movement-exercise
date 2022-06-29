@@ -4,7 +4,10 @@ _Created by Maegan Stayrook_
 
 Description:
 A brief exercise through the MIT MERN Full Stack course to set up two eyes following the cursor across the screen.
- 
+
+How to Run:
+Move cursor across window; the eyes should follow.
+
 Roadmap:
 - Implement button-click 'reactions' like blinking on a button click.
 - Include eyebrows that will move on button click, as well.
